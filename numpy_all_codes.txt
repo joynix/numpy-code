@@ -14,6 +14,13 @@ myarray
 
 myarray.dtype
 
+myarray.shape
+
+myarray.ndim
+
+myarray.size
+
+
 myarray = np.zeros((2,3))
 
 myarray
