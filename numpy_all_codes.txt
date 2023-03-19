@@ -1,0 +1,97 @@
+# import library
+import numpy as np
+
+a = [1,2,3,4,5,6,7]
+
+# print array
+myarray = np.array(a)
+
+myarray
+
+type(myarray)
+
+myarray
+
+myarray.dtype
+
+myarray = np.zeros((2,3))
+
+myarray
+
+myarray = np.ones((2,2))
+myarray
+
+# principle diagonal element value is 1
+myarray = np.eye(5)
+myarray
+
+myarray = np.diag([2,4,3])
+myarray
+
+# print array random element
+myarray = np.random.randint(1,10,10)
+myarray
+
+myarray = np.random.randn(5)
+myarray
+
+myarray = np.random.rand(2)
+myarray
+
+myarray = np.random.randint(1,10,16).reshape(4,4)
+myarray
+
+# print dimension of array
+myarray.ndim
+
+np.ndim
+
+myarray.ndim
+
+# equally devided element
+myarray = np.linspace(1,10,5)
+myarray
+
+myarray = np.random.randint(1,50,25).reshape(5,5)
+myarray
+
+myarray[1,1]
+
+# slicing element
+sliching = myarray[1:2,1:2]
+sliching[ : ] = 0
+sliching
+myarray
+
+myarray<10
+
+myarray[myarray<10]
+
+myarray**2
+
+myarray/2
+
+myarray[myarray/2 ==0]
+
+np.min(myarray)
+
+np.max(myarray)
+
+np.argmin(myarray)
+
+np.argmax(myarray)
+
+arr1 = np.random.randint(1,50,12).reshape(3,4)
+
+arr1
+
+arr2 = np.random.randint(1,10,12).reshape(3,4)
+
+arr2
+
+# gorizontal add teo array
+np.hstack((arr1,arr2))
+
+# horizontal add tow array
+np.vstack((arr1,arr2))
+
